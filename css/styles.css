@@ -1,0 +1,44 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+}
+.logo {
+  font-size: 26px;
+  line-height: 1.2;
+  color: #2196f3;
+}
+.studio {
+  color: #212121;
+}
+
+nav:link {
+  font-size: 14px;
+  line-height: 1.4;
+}
+.link {
+  color: #212121;
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+.title {
+  font-size: 44px;
+  line-height: 1.4;
+  color: antiquewhite;
+}
+button {
+  cursor: pointer;
+}
+button:hover,
+:focus {
+  color: #2196f3;
+}
+.more:hover,
+.more:focus {
+  color: #2196f3;
+}
+.more {
+  color: #212121;
+}
