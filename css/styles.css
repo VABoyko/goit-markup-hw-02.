@@ -3,25 +3,21 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --background-button: #f5f4fa;
 }
 
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
+  font-style: normal;
 }
 ul,
 a {
   list-style: none;
   text-decoration: none;
 }
-.logo-title {
-  color: bisque;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  text-align: center;
-}
+
 .logo {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
@@ -29,7 +25,21 @@ a {
   font-size: 26px;
   line-height: 1.19;
 }
-
+.logo-title {
+  color: bisque;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.logo-button:hover,
+.logo-button:focus {
+  color: var(--title-text-color);
+  background-color: var(--background-button);
+}
 .studio {
   font-family: Raleway, sans-serif;
   color: var(--title-text-color);
@@ -69,8 +79,20 @@ a {
   font-size: 14px;
   line-height: 1.7;
 }
+.logo-button {
+  border: none;
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
 .button {
-  color: var(--primary-text-color);
+  border: none;
+  color: var(--title-text-color);
+  background-color: var(--background-button);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -78,7 +100,8 @@ a {
 }
 .button:hover,
 .button:focus {
-  color: var(--accent-color);
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
 }
 .work-place {
   color: var(--title-text-color);
@@ -110,7 +133,7 @@ a {
 
 .footer-studio {
   color: bisque;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 }
@@ -123,13 +146,13 @@ a {
 }
 
 .address {
+  font-style: normal;
   font-family: Roboto, sans-serif;
   color: bisque;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
 }
-
 /* portfolio */
 .more:hover,
 .more:focus {
@@ -156,6 +179,7 @@ a {
   font-size: 14px;
   line-height: 1.14;
 }
-.button {
+.button,
+.logo-button {
   cursor: pointer;
 }
